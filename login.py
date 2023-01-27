@@ -31,7 +31,7 @@ if cookie_good:
 print("content-type: text/html")
 if form_good:
     print("Set-Cookie: username={username}")
-    print("Set-Cookie: username={password}")
+    print("Set-Cookie: password={password}")
 
 print()
 
